@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - the royal rout</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+    
+      .navbar {
+        background-color: black;
+        color:white;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+    
+      .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+    
+      .navbar li {
+        display: inline;
+        margin-right: 20px;
+      }
+    
+      .navbar a {
+        color: #fff;
+        text-decoration: none;
+      }
+    
+      .navbar a:hover{
+        font-size: large;
+        font-weight: 800;
+      }
+      #logo2{
+        color: #fff;
+        font-size: large;
+        font-weight: 500;
+      }
+    
+      .header {
+        background-color: #f2f2f2;
+        padding: 50px;
+        text-align: center;
+      }
+    
+      h1 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+        color: #333;
+      }
+    
+      p {
+        font-size: 1.2em;
+        line-height: 1.6;
+        color: #555;
+        margin-bottom: 20px;
+      }
+    
+      .contact-form {
+        background-color: #f9f9f9;
+        padding: 30px;
+        border-radius: 10px;
+        text-align: center;
+      }
+    
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+    
+      input[type="submit"] {
+        background: transparent;
+        color: #123456;
+        border: 5px solid #ccc;
+        font-size: large;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+    
+      input[type="submit"]:hover {
+        background-color: aqua;
+        font-size: larger;
+        font-weight: 800;
+        border: 2.5px solid #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <span id="logo2">Welcome to the royal rout</span>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Gallary.html">Destination</a></li>
+        <li><a href="testimonial.html">tourist places</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="contact-us.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="header">
+      <h1>Contact Us</h1>
+      <p>Have questions, feedback, or suggestions? We'd love to hear from you!</p>
+      <div class="contact-form">
+        <form action="contact-us.html" method="post">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
